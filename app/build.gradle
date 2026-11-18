@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' version '8.7.3' }
+android { namespace 'in.handoff.app'; compileSdk 35
+    defaultConfig { applicationId 'in.handoff.app'; minSdk 26; targetSdk 35 }
+}
+dependencies { implementation 'com.github.mwiede:jsch:0.2.21' }
