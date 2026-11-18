@@ -1,6 +1,8 @@
 name: Build HandOff APK
 on:
   workflow_dispatch:
+  pull_request:
+    paths: ['app/**']
 permissions:
   contents: read
 jobs:
